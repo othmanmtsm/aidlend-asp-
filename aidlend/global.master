@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="global.master.cs" Inherits="global" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+    <title>Aidlend</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/plyr.css">
+    <link rel="stylesheet" href="assets/css/jquery.jscrollpane.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700%7COpen+Sans:400,600%7CShadows+Into+Light" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/icons/favicon.png">
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/icon-114x114.png">
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="header-middle text-white" id="header-middle">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="contact">
+                    <p class="email"><i class="fa fa-envelope-o"></i>contact.aidlend@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main header -->
+<header id="main-header" class="main-header bg-img-1">
+    <div class="cp-nav style-1">
+    <div class="container">
+        <div class="row">
+        <div class="col">
+            <div class="nav-container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="Main.aspx"><img style="width:100px !important;" src="images/icons/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                    <a href="Register.aspx" class="nav-link" aria-haspopup="true" aria-expanded="false">Join us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a href="Login.aspx" class="nav-link" aria-haspopup="true" aria-expanded="false">Login</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</header>
+<!-- Main header End -->
+
+
+<div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="style-2">
+    <div class="footer-widget-area">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <aside class="widget widget_about">
+                            <a class="footer-logo" href="Main.aspx">
+                                <img src="images/icons/logo-2.png" alt="Logo">
+                            </a>
+                            <p class="contact-info theme-color">
+                                <span><i class="fa fa-envelope-o"></i>contact.aidlend@gmail.com</span>
+                            </p>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="footer-lower">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">Copyright 2019. <a href="#">Aidlend</a>. All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/imagesloaded.js"></script>
+<script src="assets/js/visible.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/progressbar.min.js"></script>
+<script src="assets/js/plyr.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/jquery.jscrollpane.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+<script src="assets/js/map.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
